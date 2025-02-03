@@ -1,0 +1,34 @@
+{
+  "name": "Luxury Rolls Royce Service",
+  "short_name": "Luxury Service",
+  "description": "Luxury Rolls Royce Ghost chauffeur service in Campania",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": ["business", "travel", "transportation"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Book Service",
+      "url": "/en/contact",
+      "description": "Book our luxury car service"
+    }
+  ]
+}

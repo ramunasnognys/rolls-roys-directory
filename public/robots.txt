@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# English pages
+Allow: /en/
+Allow: /en/wedding-services/
+Allow: /en/birthday-celebrations/
+Allow: /en/private-parties/
+Allow: /en/contact/
+
+# Italian pages
+Allow: /it/
+Allow: /it/servizi-matrimoniali/
+Allow: /it/celebrazioni-compleanno/
+Allow: /it/feste-private/
+Allow: /it/contact/
+
+# Prioritize location-specific pages for SEO
+Allow: /en/*/avellino
+Allow: /en/*/benevento
+Allow: /en/*/caserta
+Allow: /en/*/salerno
+Allow: /en/*/naples
+Allow: /it/*/avellino
+Allow: /it/*/benevento
+Allow: /it/*/caserta
+Allow: /it/*/salerno
+Allow: /it/*/naples
+
+# Block access to API routes and internal pages
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://yourwebsite.com/sitemap.xml
